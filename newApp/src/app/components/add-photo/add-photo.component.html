@@ -1,0 +1,47 @@
+<!-- <div style="margin-top:70px">
+<div> Dodaj nova slika</div>
+<div> 
+  <div> Title: <input type="text" #title name=title ></div>
+  <div> Album Id: <input type="text" #albumid name=albumid></div>
+  <div> Thumbnail Url: <input type="text" #thumbnailurl name=thumbnailurl></div>
+  <div> Url: <input type="text" #url name=url></div>
+</div>
+<div> <button type="button" class="btn btn-success"
+   (click)="AddPhoto(title, albumid,thumbnailurl, url)">Dodaj</button></div>
+</div> -->
+<div class="container-fluid bg-secondary text-light"  style="margin-top: 56px;">
+<form>
+  <br>
+    <div class="form-group row">
+      <label for="inputEmail3" class="col-sm-2 col-form-label">Title:</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" #title name=title placeholder="Title">
+      </div>
+    </div>
+    <div class="form-group row">
+        <label for="inputEmail3" class="col-sm-2 col-form-label">Album Id:</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" #albumid name=albumid placeholder="Title">
+        </div>
+      </div>
+      <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 col-form-label">Thumbnail Url:</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" #thumbnailurl name=thumbnailurl placeholder="Title">
+          </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Url:</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" #url name=url placeholder="Title">
+            </div>
+          </div>
+    <div class="form-group row">
+      <div class="col-sm-10">
+          <button type="button" class="btn btn-dark"
+          (click)="AddPhoto(title, albumid,thumbnailurl, url)">Add</button>
+      </div>
+    </div>
+    <br>
+  </form>
+</div>

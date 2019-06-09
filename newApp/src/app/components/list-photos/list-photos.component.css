@@ -1,0 +1,39 @@
+.underline {
+    width: 100px;
+    border: 3px solid #EEE;
+    margin: auto;
+  }
+  .card-shadow {
+    box-shadow: 5px 8px 20px #444;
+  }
+  .heading {
+    position:absolute;
+    top: 70%;
+    right: 0;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: #222;
+    width: 70%;
+    cursor: pointer;
+    opacity: .7;
+    transition: all .5s;
+  }
+  .heading:hover {
+    opacity: 1;
+  }
+  /* end of collection */
+ 
+.icon-play{
+  background-image : url(http://icons.iconarchive.com/icons/awicons/vista-artistic/256/add-icon.png);
+  background-size: cover;
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+}
+@media only screen and (max-width: 1000px) {
+  .img-klasa1 {
+      height: 650px;
+      width: 668px;
+  }
+ }

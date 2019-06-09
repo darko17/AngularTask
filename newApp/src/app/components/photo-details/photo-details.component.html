@@ -1,0 +1,19 @@
+<div class="container-fluid bg-secondary" style="padding-bottom: 10px; padding-top: 25px;">
+<div class="card mb-3" style="max-width: 1000px; max-height: 1000px; margin-top: 50px;">
+    <div class="row no-gutters">
+      <div class="col-md-4 col-sm-6 col-lg-8">
+        <img src="{{Photo.url}}" class="card-img " alt="...">
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="card-body">
+          <h5 class="card-title"> {{Photo.title}} </h5>
+          <p class="card-text">Album Id: {{Photo.albumId}}</p>
+          <p class="card-text"><em>Thumbnail Url: </em> {{Photo.thumbnailUrl}}</p>
+          <p class="card-text"><em>Url:  </em> {{Photo.url}}</p>
+          <div><button type="button" class="btn btn-secondary" style="margin-right:25px; width: 80px;"(click)="EditTitle()"> Edit </button>
+            <button type="button" class="btn btn-dark" style="width: 80px;" (click)="DeletePhoto()">Delete</button></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
